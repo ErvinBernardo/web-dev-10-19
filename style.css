@@ -1,0 +1,83 @@
+/*
+	Syntax for CCS
+
+	Selector {
+		property: value;
+		property: value;
+	}
+
+*/
+
+
+/*For font*/
+* {
+	font-family: "Roboto", sans-serif;
+}
+
+h1, p {
+	font-family: "Montserrat", sans-serif;
+}
+
+/*For profile size*/
+#profile {
+
+	height: 250px;
+	width: 250px;
+	border: 3px solid black; 
+	/*Optional	*/
+	border-radius: 50%;
+}
+
+#landing {
+	height: 85vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+footer {
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	
+}
+
+.fa-globe, .fa-facebook, .fa-twitter, .fa-ingstagram, .fa-tiktok, .fa-youtube{
+	
+	font-size: 25px;
+	color: white;
+	margin: 0 10px 0 10px;
+}
+
+ .fa-facebook:hover, .fa-twitter:hover, .fa-ingstagram:hover{
+
+	color: royalblue;	
+}
+
+.fa-tiktok:hover{
+
+	color: orangered;
+}
+
+.fa-youtube:hover{
+
+	color: red;
+}
+
+.fa-globe:hover{
+
+	color: limegreen;
+}
+
+
+/*Design for UI*/
+body {
+
+	background-color: #FFFFFF;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23E0F4FF' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+
+}
